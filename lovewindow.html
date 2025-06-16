@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my love for you</title>
+    <style>
+@font-face {
+    font-family: Windows98;
+    src: url(/fonts/MS\ Sans\ Serif\ 8pt.ttf);
+}
+.WindowError {
+    outline: solid;
+    outline-width: 1px;
+    border: outset;
+    border-width: 3px;
+    border-color: #e7e7e7;
+    background-color: #d3d3d3;
+    margin-top: 200px;
+    width: 300px;
+    height: 250px;
+}
+
+.WindowBar {
+    display: flex;
+    column-gap: 200px;
+    background-color: #1111af;
+    width: 300px;
+    height: 30px;
+}
+
+.BarTitle {
+    text-shadow: 0.5px 0px white, 1.5px 0px white; 
+    color: transparent; 
+    letter-spacing: 1px;
+    margin-top: 4.5px;
+    margin-left: 4.1px;
+    
+}
+
+.CloseWindow {
+    color: white;
+    margin-top: 5.6px;
+    margin-left: 7px;
+}
+
+.love4u {
+    font-family: Windows98;
+}
+
+.Contents {
+    background-color: white;
+    border: inset;
+    border-color: #e7e7e7;
+    width: 250px;
+    height: 80px;
+    margin-bottom: 15px;
+    font-family: Windows98;
+}
+
+#res {
+    margin-top: 12px;
+}
+
+.CounterContainer {
+    display: inline-flex;
+    column-gap: 40px;
+}
+
+#buttonPlus {
+    color: black;
+    border: solid;
+    border-color: #ffffff #5a5a5a #5a5a5a #ffffff;
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 30px;
+    font-family: Windows98;
+}
+
+#buttonPlus:focus {
+    color: black;
+    border: solid;
+    border-color:  #5a5a5a #ffffff #ffffff #5a5a5a;
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 30px;
+    font-family: Windows98;
+}
+
+#buttonMinus {
+    color: black;
+    border: solid;
+    border-color: #ffffff #5a5a5a #5a5a5a #ffffff;
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 30px;
+    font-family: Windows98;
+}
+
+#buttonMinus:focus {
+    color: black;
+    border: solid;
+    border-color:  #5a5a5a #ffffff #ffffff #5a5a5a;
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 30px;
+    font-family: Windows98;
+}
+    </style>
+</head>
+<body>
+    <center>
+<div class="WindowError">
+    <div class="WindowBar">
+        <div class="BarTitle">
+            Love.exe
+        </div>
+        <div class="CloseWindow">
+            <img src="https://images.genius.com/2a9801840ef6bbfe4d079fd4e89bde19.600x600x1.jpg" alt="HTML tutorial" width="18px">
+        </div>
+    </div>
+    
+    <div class="love4u">
+        <p>My love for you is . . .</p>
+    </div>
+
+    <div class="Contents">
+        <img src="/images/pixelheart.png" style="margin-top: 2px;" width="30">
+       <div id="res">1</div>
+       </div>
+
+    <div class="CounterContainer">
+        <div class="CounterContainer">
+            <div class="Increaser">
+             <button id="buttonPlus">+</button>
+            </div>
+
+            <div class="Decreaser">
+             <button id="buttonMinus">-</button>
+    </div>
+        </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+    </center>
+</body>
+</html>
