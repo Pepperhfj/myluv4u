@@ -8,3 +8,24 @@ increaser.addEventListener("click", () =>
 
 decreaser.addEventListener("click", () => 
 {res.textContent--});
+
+// End of line
+
+const image1 = document.getElementById('image1');
+const image2 = document.getElementById('image2');
+
+increaser.onclick = heartNormal;
+
+decreaser.onclick = heartBreak;
+
+function heartNormal() {
+    image1.style.display = "block";
+    image2.style.display = "none";
+}
+
+function heartBreak() {
+    image1.style.display = "none";
+    image2.style.display = "block";
+}
+
+// End of line
