@@ -1,4 +1,4 @@
-// <#
+// <3
 
 const increaser = document.getElementById('buttonPlus');
 const decreaser = document.getElementById('buttonMinus');
