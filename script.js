@@ -6,10 +6,10 @@ const decreaser = document.getElementById('buttonMinus');
 const res = document.getElementById('res');
 
 increaser.addEventListener("click", () => 
-{res.textContent++});
+    {res.textContent++});
 
 decreaser.addEventListener("click", () => 
-{res.textContent--});
+    {res.textContent--});
 
 // End of line
 
