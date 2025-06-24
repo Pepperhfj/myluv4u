@@ -1,4 +1,13 @@
-// <3
+//<3
+
+const closeButton = document.getElementById('CloseWindow');
+closeButton.onclick = resetCounter;
+
+function resetCounter() {
+    res.innerHTML = "0";
+}
+
+// End of line
 
 const increaser = document.getElementById('buttonPlus');
 const decreaser = document.getElementById('buttonMinus');
@@ -6,10 +15,10 @@ const decreaser = document.getElementById('buttonMinus');
 const res = document.getElementById('res');
 
 increaser.addEventListener("click", () => 
-    {res.textContent++});
+{res.textContent++});
 
 decreaser.addEventListener("click", () => 
-    {res.textContent--});
+{res.textContent--});
 
 // End of line
 
